@@ -30,7 +30,8 @@ int main(void) {
 		remainder = originalnum%10;//Modulo , store the remainder value of original number
 		sum= sum+(remainder*remainder*remainder); // two times multiple of remainder and add (+)sum then store value in the sum
 		originalnum =originalnum/10;//original number divided by 10 and quotient store in original number
-		}
+		// printf("\n the arm strong number is: %d ",sum);
+	}
 	if (copy ==sum)// if condition is used for given number as (copy) is == to sum value to check
 	{
 		printf("\n the number is Armstrong");// true
