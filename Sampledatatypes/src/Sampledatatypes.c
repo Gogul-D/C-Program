@@ -15,11 +15,13 @@ int main(void) {
 	int a =10;
 	float b=1.0000;
 	char c ='g' ;
+	char str[] = "GOKUL"
 	double  d = 1245521.000000000; /* double float value*/
 	printf("\n the integer value:%d",a);
-	printf("\n the integer value:%f",b);
-	printf("\n the integer value:%c",c);
-	printf("\n the integer value:%f",d);
+	printf("\n the float value:%f",b);
+	printf("\n the charater value:%c",c);
+	printf("\n the string value:%s",d);
+	printf("\n the double float value:%f",d);
 
 	return EXIT_SUCCESS;
 }
