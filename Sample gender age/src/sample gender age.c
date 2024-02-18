@@ -10,7 +10,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
 int main(void) {
 	int age = 21;
 	char str[] = "male";
